@@ -173,7 +173,7 @@ INSERT_TEXT_FROM_FILE(../src/yang/ietf-netconf-am@YYYY-MM-DD-tree.txt)
         <figure>
           <artwork><![CDATA[<CODE BEGINS> file "ietf-netconf-am@YYYY-MM-DD.yang"
 
-INSERT_TEXT_FROM_FILE(ietf-netconf-am@YYYY-MM-DD.yang)
+INSERT_TEXT_FROM_FILE(../src/yang/ietf-netconf-am@YYYY-MM-DD.yang)
 
 <CODE ENDS>
           ]]></artwork>

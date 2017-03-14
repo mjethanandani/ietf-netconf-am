@@ -1,0 +1,14 @@
+module: ietf-netconf-am
+   +--ro nam
+      +--ro accounting-record* [task-id]
+         +--ro task-id       uint32
+         +--ro session-id?   nc:session-id-type
+         +--ro acct-code     enumeration
+         +--ro date-time     yang:date-and-time
+         +--ro src-ip        inet:ip-address
+         +--ro group         nacm:group-name-type
+         +--ro user?         nacm:user-name-type
+         +--ro path          nacm:node-instance-identifier
+         +--ro action        nacm:access-operations-type
+         +--ro rule?         string
+         +--ro status?       nacm:action-type
